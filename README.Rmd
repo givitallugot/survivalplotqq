@@ -35,10 +35,10 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(survivalplotqq)
 
-loco <- read.csv("./locomotive.csv", header=T)
-loco$lnmiles <- log(loco$miles)
-data <- loco[loco$tag == 1,] # Use only complete cases
-colnames(data) <- c('x', 'tag', 'lnx')
-
-plotqq.survival(data)
+# loco <- read.csv("./locomotive.csv", header=T)
+# loco$lnmiles <- log(loco$miles)
+# data <- loco[loco$tag == 1,] # Use only complete cases
+# colnames(data) <- c('x', 'tag', 'lnx')
+# 
+# plotqq.survival(data)
 ```
