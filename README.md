@@ -31,10 +31,19 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(survivalplotqq)
 
-# loco <- read.csv("./locomotive.csv", header=T)
-# loco$lnmiles <- log(loco$miles)
-# data <- loco[loco$tag == 1,] # Use only complete cases
-# colnames(data) <- c('x', 'tag', 'lnx')
-# 
-# plotqq.survival(data)
+loco$lnmiles <- log(loco$miles)
+data <- loco[loco$tag == 1,] # Use only complete cases
+colnames(data) <- c('x', 'tag', 'lnx')
+
+plotqq.survival(data)
+#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula 'y ~ x'
 ```
+
+<img src="README_figs/README-example-1.png" width="100%" />

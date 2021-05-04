@@ -1,9 +1,9 @@
-#' Plot Q-Q plot on survival data
+#' Plot Q-Q plot for survival data
 #'
-#' Draw 8 different Q-Q plot Create a new factor from two existing factors, where the new factor's levels
-#' are the union of the levels of the input factors.
+#' Draw 8 different Q-Q plots to inference which distribution is the best to fit the survival data.
+#' List of Candidate distributions: Weibull, Log-Normal, Gompertz, Gumbel, Normal, Pareto, Exponential, Laplace.
 
-#' @param data Data Frame
+#' @param data Data Frame with 3 variables such as x(variable of interest), tag(binary 0 or 1, survival or not) and lnx(log x)
 #'
 #' @return
 #' @export
