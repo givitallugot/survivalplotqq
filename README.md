@@ -4,8 +4,7 @@
 **NOTE: This is a package created for experimental purposes, for the
 second edition of [R Packages](https://r-pkgs.org). But this can be
 useful for drawing various Q-Q plots to eventually inference which
-distribution is the best for the observed data.
-[forcats](https://forcats.tidyverse.org).**
+distribution is the best for the observed data.**
 
 # survivalplotqq
 
